@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.2">
+  <diagram name="Page-1" id="GxixDLq5Sg1r-jbVdXjj">
+    <mxGraphModel dx="937" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-4" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#7AA116;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="204.77999999999997" y="650" width="440" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-16" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=4;strokeColor=#7AA116;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="450.5" y="710" width="149.17" height="127.86" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-13" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=4;strokeColor=#7AA116;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="244" y="710" width="149.17" height="127.86" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#7AA116;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="90" y="120.00000000000001" width="669.57" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="tj6Gsa1gZ65bD3j8rmmn-19" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font color=&quot;#7aa116&quot; style=&quot;font-size: 13px;&quot;&gt;Temp/moisture sensor&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font color=&quot;#7aa116&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/font&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=13;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_thing_temperature_humidity_sensor;" parent="1" vertex="1">
+          <mxGeometry x="491.64" y="723" width="52" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="tj6Gsa1gZ65bD3j8rmmn-20" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font color=&quot;#7aa116&quot; style=&quot;font-size: 13px;&quot;&gt;Wood moisture&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font color=&quot;#7aa116&quot; style=&quot;font-size: 13px;&quot;&gt;sensor&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=13;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_thing_humidity_sensor;" parent="1" vertex="1">
+          <mxGeometry x="268.59" y="723" width="52" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="tj6Gsa1gZ65bD3j8rmmn-23" value="Database" style="sketch=0;outlineConnect=0;fontColor=#7AA116;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=13;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_analytics_data_store;" parent="1" vertex="1">
+          <mxGeometry x="605.5" y="160" width="54" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7AA116;strokeWidth=2;" parent="1" source="tj6Gsa1gZ65bD3j8rmmn-29" target="tj6Gsa1gZ65bD3j8rmmn-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tj6Gsa1gZ65bD3j8rmmn-29" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;Web&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;server&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#7AA116;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=right;html=1;fontSize=13;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.opensearch_dashboards;labelPosition=left;spacingLeft=3;" parent="1" vertex="1">
+          <mxGeometry x="450.5" y="161.95999999999998" width="99.2" height="75.04" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-1" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="184" y="160" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tj6Gsa1gZ65bD3j8rmmn-21" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mqtt_protocol;" parent="P-vmgczgdNdUXDMVkyAK-1" vertex="1">
+          <mxGeometry width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tj6Gsa1gZ65bD3j8rmmn-24" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.topic_2;" parent="P-vmgczgdNdUXDMVkyAK-1" vertex="1">
+          <mxGeometry x="16" y="30" width="39.41" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="tj6Gsa1gZ65bD3j8rmmn-25" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.topic_2;" parent="P-vmgczgdNdUXDMVkyAK-1" vertex="1">
+          <mxGeometry x="58.589999999999975" y="30" width="39.41" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="tj6Gsa1gZ65bD3j8rmmn-26" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.topic_2;" parent="P-vmgczgdNdUXDMVkyAK-1" vertex="1">
+          <mxGeometry x="101" y="30" width="39.41" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-2" value="Raspberry Pi v.1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png;fontSize=14;fontColor=#7AA116;" parent="1" vertex="1">
+          <mxGeometry x="215" y="551" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=2;strokeColor=#7AA116;" parent="1" source="P-vmgczgdNdUXDMVkyAK-5" target="P-vmgczgdNdUXDMVkyAK-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7AA116;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="P-vmgczgdNdUXDMVkyAK-5" target="P-vmgczgdNdUXDMVkyAK-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-5" value="Router" style="sketch=0;outlineConnect=0;fontColor=#7AA116;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=14;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.customer_gateway;labelPosition=right;" parent="1" vertex="1">
+          <mxGeometry x="385.78" y="520" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-8" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="470" y="299.99999999999994" width="170" height="145.71" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-7" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=4;strokeColor=#7AA116;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="P-vmgczgdNdUXDMVkyAK-8" vertex="1">
+          <mxGeometry width="170" height="145.71" as="geometry" />
+        </mxCell>
+        <mxCell id="tj6Gsa1gZ65bD3j8rmmn-27" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;Fans&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#7AA116;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=13;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.servo;" parent="P-vmgczgdNdUXDMVkyAK-8" vertex="1">
+          <mxGeometry x="94.3904761904762" y="27.523" width="63.141" height="45.332" as="geometry" />
+        </mxCell>
+        <mxCell id="tj6Gsa1gZ65bD3j8rmmn-40" value="&lt;div&gt;Pipes&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#7AA116;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=13;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.servo;" parent="P-vmgczgdNdUXDMVkyAK-8" vertex="1">
+          <mxGeometry x="13.761904761904763" y="26.7135" width="63.141" height="45.332" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-9" value="Raspberry Pi v.3" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png;fontSize=14;fontColor=#7AA116;" parent="1" vertex="1">
+          <mxGeometry x="105" y="25" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/660277-Python_logo-128.png;fontFamily=Helvetica;fontSize=13;fontColor=#7AA116;imageBackground=none;" parent="1" vertex="1">
+          <mxGeometry x="468" y="237" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/660277-Python_logo-128.png;fontFamily=Helvetica;fontSize=13;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="243" y="643" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/660277-Python_logo-128.png;fontFamily=Helvetica;fontSize=13;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="450.5" y="643" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-25" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-logos/24/bxl-spring-boot-128.png;fontFamily=Helvetica;fontSize=13;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="448.5" y="130" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-29" value="VPN" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#7AA116;strokeWidth=4;fontSize=14;fontColor=#7AA116;" parent="1" vertex="1">
+          <mxGeometry x="147" y="360" width="97.78" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P-vmgczgdNdUXDMVkyAK-30" value="&lt;div&gt;Grafana&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#7AA116;strokeWidth=4;fontSize=14;fontColor=#7AA116;" parent="1" vertex="1">
+          <mxGeometry x="285.59" y="360" width="97.78" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6yv9uJr0hkfchaQCksaS-1" value="Physical schema" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="300" y="16" width="227.5" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
